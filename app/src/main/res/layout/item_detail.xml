@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bottom_shadow"
+
+        >
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:paddingHorizontal="48dp"
+            android:paddingTop="48dp"
+            card_view:layout_constraintBottom_toTopOf="@id/l_line"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+
+            tools:src="@tools:sample/avatars"/>
+
+        <LinearLayout
+            android:id="@+id/l_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:padding="16dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            card_view:layout_constraintTop_toBottomOf="@id/img_item_photo">
+
+                <TextView
+                    android:id="@+id/tv_hair_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_toEndOf="@id/img_item_photo"
+                    android:gravity="center"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textColor="@color/sand"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Hair_Style"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+                    card_view:layout_constraintTop_toBottompOf="@+id/img_item_photo"
+                   />
+                <TextView
+                    android:id="@+id/tv_hair_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_toEndOf="@id/img_item_photo"
+                    android:gravity="center"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textColor="@color/sand"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+                    card_view:layout_constraintTop_toBottompOf="@+id/tv_face_shape"
+                    tools:text="Hair Type" />
+            <TextView
+                android:id="@+id/tv_type_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:gravity="center"
+                android:fontFamily="@font/monserrat_medium"
+                android:textColor="@color/sand"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+                card_view:layout_constraintTop_toBottompOf="@+id/tv_face_shape"
+                tools:text="Hair_Name" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

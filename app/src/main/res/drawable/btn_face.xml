@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_baseline_face_24" android:width="100dp"
+        android:height="100dp" android:gravity="center" ></item>
+    <item android:drawable="@drawable/baseline_fullscreen_24"
+        ></item>
+</layer-list>
