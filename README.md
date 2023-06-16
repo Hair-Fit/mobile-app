@@ -8,9 +8,9 @@
 ## Installation
 
 ### 1. Clone this Project to your Computer
-bash
+~~~bash
 git clone https://github.com/Hair-Fit/mobile-app.git
-
+~~~
 
 or you can use Android Studio 
 
