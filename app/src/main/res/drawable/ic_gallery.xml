@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="oval" android:padding="32dp">
+            <solid
+                android:color="@color/choco"/>
+
+            <size
+                android:width="120dp"
+                android:height="120dp"
+                />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_place_holder" android:height="100dp" android:width="100dp" android:gravity="center"/>
+</layer-list>
