@@ -1,4 +1,4 @@
-# mobile-app
+# Mobile-App
 ## Requirement
 * Android Studio 
 * Android Device or Android Emulator with minimum Lollipop Version
