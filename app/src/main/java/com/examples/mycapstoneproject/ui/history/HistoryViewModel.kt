@@ -1,4 +1,4 @@
-package com.examples.mycapstoneproject
+package com.examples.mycapstoneproject.ui.history
 
 import androidx.lifecycle.ViewModel
 

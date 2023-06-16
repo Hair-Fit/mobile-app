@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">MyCapstoneProject</string>
+    <string name="app_name">Hair-Fit</string>
     <string name="Line">An Application to Help\nYou Choose a Hairstyle</string>
-    <string name="username">Hi!\nShalbi Addandi</string>
+    <string name="username">Hi!\nBudi</string>
+    <string name="prompt_email" translatable="false">Email</string>
+
     <string name="face_scan">Face Scan</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -11,4 +13,86 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_catalog">Catalog</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="register">register</string>
+    <string name="title_history">History</string>
+    <string name="insert_password">Enter Your Password...</string>
+    <string name="insert_name">Enter Your Name.....</string>
+    <string name="insert_email">Enter Your Email.....</string>
+    <string name="foto">https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg</string>
+    <string name="signup_option"> <u>Dont Have Any Account? <i><b>Sign Up</b></i></u> </string>
+    <string name="login_option"> <u>Dont Have Any Account? <i><b>Sign Up</b></i></u> </string>
+    <string name="photo_profile" translatable="false">https://i.pinimg.com/736x/cf/e7/16/cfe716fa1969bb95e85174dc86e127d1--oval-face-shapes-oval-faces.jpg</string>
+
+    <string-array name="data_name">
+        <item>Square</item>
+        <item>Round</item>
+        <item>Diamond</item>
+        <item>Oval</item>
+        <item>Heart</item>
+        <item>Oblong</item>
+
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Muka</item>
+        <item>Muka</item>
+        <item>Muka</item>
+        <item>Muka</item>
+        <item>Muka</item>
+        <item>Muka</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/square</item>
+        <item>@drawable/round</item>
+        <item>@drawable/diamond</item>
+        <item>@drawable/oval</item>
+        <item>@drawable/heart</item>
+        <item>@drawable/oblong</item>
+<!--        <item>https://images.squarespace-cdn.com/content/v1/604c898a6622412b2d6c373a/1619256657377-NY5P139XD7RRHRXHYHE8/image-asset.png</item>-->
+<!--        <item>https://images.squarespace-cdn.com/content/v1/604c898a6622412b2d6c373a/1619256351872-IVVEOTTPN9IC56LL7A5A/W-Round.png</item>-->
+<!--        <item>https://images.squarespace-cdn.com/content/v1/604c898a6622412b2d6c373a/1619256313181-GO4TQUCZR7NCM874OXEA/W-Diamond.png</item>-->
+<!--        <item>https://i.pinimg.com/originals/c7/c7/0d/c7c70d1b8419971ab747412ef79cc9f4.jpg</item>-->
+
+    </integer-array>
+    <string-array name="data_hair">
+        <item>Bald</item>
+        <item>Buzzcut</item>
+        <item>Faux Hawk</item>
+        <item>Hipster</item>
+
+    </string-array>
+    <string-array name="data_hairtype">
+        <item>All Type</item>
+        <item>Straight</item>
+        <item>Straight</item>
+        <item>Straight</item>
+
+    </string-array>
+    <string-array name="data_hairpho">
+        <item>https://i.pinimg.com/736x/2e/3a/ef/2e3aefdb4855773df972c9390b734c70.jpg</item>
+        <item>https://assets.gqindia.com/photos/5d415adca058e5000897fa29/master/w_1600%2Cc_limit/01.jpg</item>
+        <item>https://www.menshairstyletrends.com/wp-content/uploads/2021/03/Faux-hawk-andrewdoeshair.jpg</item>
+        <item>https://menhairstylesworld.com/wp-content/uploads/2017/05/Smooth-and-Rough.jpg</item>
+
+    </string-array>
+    <string-array name="data_face">
+        <item>Oval</item>
+
+
+    </string-array>
+    <string-array name="data_date">
+        <item>April 29, 2023</item>
+
+
+    </string-array>
+    <string-array name="data_pho">
+        <item>https://healthkeeda.com/wp-content/uploads/2022/02/1-4-764x1024.jpg</item>
+
+
+    </string-array>
+
+
 </resources>

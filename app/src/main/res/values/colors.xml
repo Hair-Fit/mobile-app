@@ -13,4 +13,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+
+    <color name="darken_brown">#130D08</color>
+    <color name="dark_brown">#1A120B</color>
+    <color name="brown">#3C2A21</color>
+    <color name="light_brown">#D5CEA3</color>
+    <color name="lighten_brown">#E5E5CB</color>
+
 </resources>

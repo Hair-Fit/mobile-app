@@ -25,6 +25,9 @@
             android:layout_height="120dp"
             android:scaleType="centerCrop"
             android:layout_marginVertical="16dp"
+
+            app:civ_border_color="@color/white"
+            app:civ_border_width="5dp"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
@@ -44,5 +47,6 @@
             card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
             card_view:layout_constraintBottom_toBottomOf="@id/img_item_photo"
             tools:text="nama shape" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

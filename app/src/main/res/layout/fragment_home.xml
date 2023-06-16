@@ -31,12 +31,13 @@
             <!--            android:scaleType="centerCrop"-->
             <!--            tools:src="@tools:sample/avatars"/>-->
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profil"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerInParent="true"
-                app:civ_border_width="5dp"
                 app:civ_border_color="@color/white"
+                app:civ_border_width="5dp"
                 tools:src="@tools:sample/avatars" />
         </RelativeLayout>
 

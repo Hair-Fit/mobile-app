@@ -16,11 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_bottom_shadow"
-
         >
 
         <ImageView
-            android:id="@+id/img_item_photo"
+            android:id="@+id/img_item_det_photo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
@@ -31,7 +30,6 @@
             card_view:layout_constraintBottom_toTopOf="@id/l_line"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-
             tools:src="@tools:sample/avatars"/>
 
         <LinearLayout
@@ -44,31 +42,32 @@
             android:orientation="vertical"
             card_view:layout_constraintTop_toBottomOf="@id/img_item_photo">
 
-                <TextView
-                    android:id="@+id/tv_hair_style"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_toEndOf="@id/img_item_photo"
-                    android:gravity="center"
-                    android:fontFamily="@font/montserrat_semibold"
-                    android:textColor="@color/sand"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:text="Hair_Style"
-                    card_view:layout_constraintEnd_toEndOf="parent"
-                    card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
-                    card_view:layout_constraintTop_toBottompOf="@+id/img_item_photo"
-                   />
-                <TextView
+            <TextView
+                android:id="@+id/tv_hair_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="Hair_Style"
+                android:textColor="@color/sand"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+
+                />
+
+            <TextView
                     android:id="@+id/tv_hair_type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_toEndOf="@id/img_item_photo"
+                    android:text="Hair Type"
                     android:gravity="center"
                     android:fontFamily="@font/montserrat_semibold"
                     android:textColor="@color/sand"
@@ -76,7 +75,7 @@
                     android:textStyle="bold"
                     card_view:layout_constraintEnd_toEndOf="parent"
                     card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
-                    card_view:layout_constraintTop_toBottompOf="@+id/tv_face_shape"
+
                     tools:text="Hair Type" />
             <TextView
                 android:id="@+id/tv_type_name"
@@ -84,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_toEndOf="@id/img_item_photo"
+
                 android:gravity="center"
                 android:fontFamily="@font/monserrat_medium"
                 android:textColor="@color/sand"
@@ -92,7 +91,7 @@
                 android:textStyle="bold"
                 card_view:layout_constraintEnd_toEndOf="parent"
                 card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
-                card_view:layout_constraintTop_toBottompOf="@+id/tv_face_shape"
+
                 tools:text="Hair_Name" />
 
 
